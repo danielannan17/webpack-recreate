@@ -12,6 +12,8 @@ Recreates a bug for webpack 5 https://github.com/webpack/webpack/issues/15485
   npm link ../modb
   npm run dev
 ```
+Open the browser with the given url - usually localhost:8080
+
 #### Expected behaviour:
 In the browser console logs "Got Message" should appear
 
