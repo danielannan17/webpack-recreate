@@ -34,6 +34,19 @@
      },
    },
    {
+    name: 'simplebase',
+    plugins: [new NodePolyfillPlugin()],
+    module: {
+      rules: [
+        // Process JS with Babel.
+        {
+          test: /\.(js|jsx|mjs)$/,
+          loader: require.resolve('babel-loader')
+        }
+      ]
+    },
+  },
+   {
      name: 'prod',
      mode: 'production',
      entry: {

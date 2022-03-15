@@ -22,7 +22,8 @@
     "npm": ">=6"
   },
   "scripts": {
-    "build-prod": "webpack --config-name base --config-name prod --merge"
+    "build-optimised": "webpack --config-name base --config-name prod --merge",
+    "build-simple": "webpack --config-name simplebase --config-name prod --merge"
   },
   "files": [
     "dist/"
